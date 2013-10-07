@@ -1,0 +1,96 @@
+// Place all the styles related to the movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'colors';
+
+article.movie {
+  img {
+    float: left;
+    margin: 0 15px;
+    border: 3px solid #F0F0F0;
+  }
+}
+
+div.field_with_errors {
+    label {
+      color: $errors-text-color;
+    }
+    input, textarea {
+      background: $errors-background-color;
+    }
+}
+
+div#errors {
+  margin: 1em 0;
+  padding: 1em;
+  background: $errors-background-color;
+
+  h2 {
+    color: $errors-text-color;
+    font-size: 1.25em;
+  }
+
+  h3 {
+    font-size: 1em;
+    margin: .5em 0;
+    font-weight: bold;
+  }
+}
+
+div.field_with_errors {
+    label {
+      color: $errors-text-color;
+    }
+    input, textarea {
+      background: $errors-background-color;
+    }
+  }
+
+ol#reviews 
+{
+  font-size: 1.15em;
+  list-style: none;
+  padding: 0;
+
+  li 
+  {
+    margin: 1em 0;
+
+    span {
+      &.review {
+        font-weight: bold;
+      }
+      &.user {
+        font-weight: normal;
+      }
+      &.date {
+        font-size: .9em;
+        font-weight: bold;
+        color: $secondary-text-color;
+      }
+    }
+
+    p {
+      font-size: .95em;
+    }
+  }
+}
+
+.flash {
+  color: $primary-text-color;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: #ffc 0 0 4px;
+  
+  &.notice {
+    background-color: $flash-notice-color;
+  }
+
+  &.alert {
+    background-color: $flash-alert-color;
+  }
+}
+
