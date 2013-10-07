@@ -11,5 +11,6 @@ Requirements:
 * Ruby 2.0.0
 * Rails 4.0.0
 
-
+To prepopulate the Database, please do the following:
+<tt>rake db:reset</tt>
 
