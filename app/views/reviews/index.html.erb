@@ -11,6 +11,8 @@
     <p>
       &quot;<%= r.comment %>&quot;
     </p>
+     <%= link_to "Edit", edit_movie_review_path(@movie,r) %>
+     <%= link_to "Delete", movie_review_path(@movie,r), method: :delete %>
   </li>
 <% end %>
 </ol>
