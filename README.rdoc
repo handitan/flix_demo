@@ -14,3 +14,4 @@ Requirements:
 To prepopulate the Database, please do the following:
 <tt>rake db:reset</tt>
 
+Demo url is available upon request.
